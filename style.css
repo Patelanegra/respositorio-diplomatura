@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+li{
+    color: aquamarine;
+}
+
+p{
+    color: aquamarine;
+}
