@@ -1,27 +1,57 @@
 body{
-    background-color: rgb(34, 34, 34);
+   background:  linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(1,1,40,1) 23%, rgba(0,59,71,1) 100%);
 }
 
 main {
-    align-items: center;
     display: flex;
     flex-direction: column;
+    border: 1px solid #70ffe7;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
 }
 
 h1{
     color: white;
+    font-size: 70px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 h2{
     color: white;
+    font-size: 60px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 h3{
     color: white;
+    font-size: 40px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 li{
     color: aquamarine;
+    font-size: 30px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    direction: none;
+    list-style: none;
 }
 
 p{
     color: aquamarine;
+    font-size: 20px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
