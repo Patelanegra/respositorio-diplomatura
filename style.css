@@ -1,57 +1,59 @@
-body{
-   background:  linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(1,1,40,1) 23%, rgba(0,59,71,1) 100%);
-}
-
-main {
+main{
     display: flex;
-    flex-direction: column;
-    border: 1px solid #70ffe7;
-    margin: 100px;
-    padding: 20px;
-    border-radius: 10px;
+    justify-content: space-around;
+    height: 100vh;
     align-items: center;
-    box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
 }
 
-h1{
-    color: white;
-    font-size: 70px;
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+section{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
 }
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
 h2{
-    color: white;
-    font-size: 60px;
-    font-family: "Tac One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-h3{
-    color: white;
-    font-size: 40px;
-    font-family: "Tac One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    color: aliceblue;
 }
 
-li{
-    color: aquamarine;
-    font-size: 30px;
-    font-family: "Tac One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    direction: none;
-    list-style: none;
+
+.rojo-1{
+    background-color: red;
 }
 
-p{
-    color: aquamarine;
-    font-size: 20px;
-    font-family: "Tac One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.azul-2{
+    background-color: blue;
+}
+
+.verde-3{
+    background-color: green;
+}
+
+#ej-1{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#ej-2{
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#ej-3{
+    justify-content: space-between;
+    width: 400px;
+    height: 100px;
+}
+
+#ej-3 > div{
+    height: 100px;
+    width: 100px;
 }
