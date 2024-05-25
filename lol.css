@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header{
+	background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont-header a{
+	margin-left: 30px;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+}
+
+section{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrusel-lol{
+	margin: 0px;
+}
+
+.txt{
+	width: 60%;
+}
+
+.txt h2{
+    margin-top: 50px;
+	font-size: 2rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #FE6142;
+}
+
+.txt p{
+    color: white;
+    font-size: 1rem;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+footer{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.logo-foo{
+	height: 200px;
+}
+
+footer h2{
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0;
+		margin-top: 20px;
+		margin-bottom: 35px;
+}
+
+.txt-foo{
+	color: white;
+	text-decoration: none;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
